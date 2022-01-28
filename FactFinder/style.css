@@ -1,0 +1,83 @@
+/*
+Themes:https://coolors.co/28536b-c2948a-7ea8be-f6f0ed-d0c9b4
+
+*/
+img{
+	width:700px;
+	height:400px;
+	padding:15px;
+	border-radius:30px;
+	y-position:200px;
+}
+html{
+	height:100%;
+}
+
+body{
+	display:flex;
+	justify-content:center;
+	padding-top:50px;
+	align-items:center;
+}
+
+main{
+	width:800px;
+	height:500px;
+	display:grid;
+	grid-template-rows:60px auto 80px;
+}
+
+#menu{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+	padding:10px;
+	grid-gap:10px;
+}
+
+#menu > input{
+	background-color:silver;
+	color:black;
+	font-weight:bold;
+	font-size:17px;
+	border-radius:10px;
+	
+}
+
+#menu > input:hover{
+	background-color:#7EA8BE;
+	color:#28536B;
+}
+
+section{
+	border:3px solid #BBB193;
+	background-color:aliceblue;
+	border-radius:10px;
+	padding:20px;
+}
+
+#theme{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	padding:20px;
+	grid-gap:10px;
+}
+
+#theme > input{
+	background-color:#F6F0ED;
+	border-radius:20px;
+	
+	
+}
+
+#theme > input:hover{
+	background-color:#D80032;
+	color:#EDF2F4;
+	
+}
+
+facts:hover{
+	background-color:blue;
+}
+
+
+
